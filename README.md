@@ -15,7 +15,7 @@ npm install local-devices
 
 ## Example
 ```javascript
-import find from 'local-devices'
+const find = require('local-devices')
 
 // Find all local network devices.
 find().then(devices => {
